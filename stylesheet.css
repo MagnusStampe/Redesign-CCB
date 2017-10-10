@@ -91,5 +91,21 @@
 /*----------------------*/
 
 img {
-    width: 10em;
+    width: 30vw;
+}
+
+#splash section,
+#splash img,
+#splash div {
+    width: 100%;
+}
+
+#brands img,
+#us img,
+#contact img {
+    width: 20vw;
+}
+
+#us img {
+    width:
 }
