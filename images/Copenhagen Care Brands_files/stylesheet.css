@@ -1,4 +1,4 @@
-* {
+********/ * {
     margin: 0;
     padding: 0;
 }
@@ -7,7 +7,6 @@
 
 #splash {
     height: 115vh;
-    width: 100%;
 }
 
 #splash div {
@@ -121,19 +120,15 @@ p {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
 
 a:hover {
-    color: #888888;
+    color: dfdfdf;
 }
 
-header {
-    background: #ffffff;
-    height: 3vw;
-    width: 100%;
+nav {
     position: fixed;
-    z-index: 10;
 }
 
 img {
