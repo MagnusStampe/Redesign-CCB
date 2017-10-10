@@ -1,32 +1,95 @@
-/********************
-####################
-Standart
-####################
-********************/
-
-/**********
-Generel
-**********/
-
-* {
+********/ * {
     margin: 0;
     padding: 0;
 }
 
-/**********
-Text element
-**********/
+/*---------section--------*/
 
-/**********
-Visual elements
-**********/
+#about {
+    background-color: aliceblue;
+}
 
-/********************
-####################
-Sections
-####################
-********************/
+#brands {
+    background-color: #f5f0ff;
+}
 
-/**********
-Section 1
-**********/
+#us {
+    background-color: #fff0f3;
+}
+
+#vision {
+    background-color: #fffbf0;
+}
+
+#offer {
+    background-color: #f8fff0;
+}
+
+#contact {
+    background-color: #f0fff9;
+}
+
+/*---------flex-----------*/
+
+/*---------parent---------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.column_content2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#vision .sectionwrapper {
+    display: block;
+    text-align: center;
+}
+
+/*---------child---------*/
+
+.column {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.column2 {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.column_wide {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+.img {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.txt {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+/*----------------------*/
+
+img {
+    width: 10em;
+}
