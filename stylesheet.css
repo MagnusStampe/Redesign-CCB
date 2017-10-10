@@ -9,28 +9,36 @@
     height: 100vh;
 }
 
+#splash div {
+    width: 70vw;
+    top: 30vh;
+    left: 15vw;
+    position: absolute;
+    align-self: center;
+}
+
 #about {
-    background-color: aliceblue;
+    background-color: #3f3f3f;
 }
 
 #brands {
-    background-color: #f5f0ff;
+    background-color: #3f3f3f;
 }
 
 #us {
-    background-color: #fff0f3;
+    background-color: #3f3f3f;
 }
 
 #vision {
-    background-color: #fffbf0;
+    background-color: #3f3f3f;
 }
 
 #offer {
-    background-color: #f8fff0;
+    background-color: #3f3f3f;
 }
 
 #contact {
-    background-color: #f0fff9;
+    background-color: #3f3f3f;
 }
 
 /*---------flex-----------*/
@@ -65,6 +73,7 @@
     text-align: center;
 }
 
+
 /*---------child---------*/
 
 .column {
@@ -95,11 +104,18 @@
 /*----------------------*/
 
 body {
-    background-image: url(123.png);
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: white;
 }
 
 nav {
@@ -107,12 +123,6 @@ nav {
 }
 
 img {
-    width: 100%;
-}
-
-#splash section,
-#splash img,
-#splash div {
     width: 100%;
 }
 
