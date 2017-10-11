@@ -7,13 +7,13 @@
 /*---------section--------*/
 
 #splash {
-    height: 115vh;
+    height: 130vh;
     width: 100%;
 }
 
 #splash div {
     width: 70vw;
-    top: 30vh;
+    top: 20vh;
     left: 15vw;
     position: absolute;
     align-self: center;
@@ -24,19 +24,19 @@
 }
 
 #brands {
-    background-color: #3f3f3f;
+    background-color: rgba(93, 111, 125, 0.8);
 }
 
 #us {
-    background-color: #3f3f3f;
+    background-color: #9eb1b8;
 }
 
 #vision {
-    background-color: #3f3f3f;
+    background-color: #fdd3cd;
 }
 
 #offer {
-    background-color: #3f3f3f;
+    background-color: rgba(93, 111, 125, 0.8);
 }
 
 #contact {
@@ -85,7 +85,7 @@
 .column {
     flex-basis: 100px;
     flex-grow: 1;
-    padding: 1vw;
+    padding: 2vw;
     width: 100%;
 }
 
@@ -174,4 +174,8 @@ img {
 #us .column {
     max-width: 50vw;
     flex-basis: 200px;
+}
+
+#contact {
+    margin-bottom: 7vw;
 }
