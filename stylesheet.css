@@ -53,6 +53,11 @@
     width: 100%;
 }
 
+#about .sectionwrapper {
+    flex-direction: column;
+    width: 100%;
+}
+
 .sectionwrapper2 {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +91,10 @@
     flex-grow: 1;
     padding: 2vw;
     width: 100%;
+}
+
+#about .column {
+    text-align: center;
 }
 
 .column2 {
@@ -128,6 +137,15 @@ h3,
 li,
 p {
     color: white;
+}
+
+p {
+    font-family: 'Raleway';
+}
+
+h1,
+h3 {
+    font-family: 'Oswald';
 }
 
 a {
