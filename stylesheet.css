@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3f3f3f;
 }
 
 li {
@@ -27,7 +27,7 @@ li a {
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
-    background-color: #111;
+    background-color: #f3f3f3;
 }
 
 <div class="dropdown" > <span > Mouse over me</span > <div class="dropdown-content" > <p > Hello World!</p > </div > </div > .dropdown {
@@ -49,11 +49,11 @@ li a:hover {
     display: block;
 }
 
-<div class="dropdown" > <button class="dropbtn" > Dropdown</button > <div class="dropdown-content" > <a href="#" > Link 1</a > <a href="#" > Link 2</a > <a href="#" > Link 3</a > </div > </div >
+<div class="dropdown" > <button class="dropbtn" > Dropdown</button > <div class="dropdown-content" > <a href="#about" > About</a > <a href="#brands" > Brands</a > <a href="#us" > Us</a > <a href="#vision" > Vision</a > <a href="#offer" > Offer</a > <a href="#contact" > Contact</a > </div > </div >
 /* Style The Dropdown Button */
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #5d6f7d;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -73,7 +73,7 @@ li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -103,10 +103,9 @@ li a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #5d6f7d;
 }
 
-Benjamin Ole Reinhold Bonnichsen Benjamin
 /*-------- Media Queries ---------- */
 
 @media all and (max-width: 828px) {
@@ -127,41 +126,56 @@ Benjamin Ole Reinhold Bonnichsen Benjamin
     }
 }
 
+<<<<<<< HEAD
 display: inline-block;
 width: 100%;
 background-color: #2d2d2d;
+=======
+position: fixed;
+display: inline-block;
+width: 100%;
+left: 0;
+right: 0;
+top: 0;
+margin: 0;
+background-color: #3f3f3f;
+>>>>>>> origin/master
 color: #F7F0E7;
 padding: 16px;
 cursor: pointer;
 font-family: 'Open Sans';
 font-size: 1.5em;
 text-align: left;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 /*--------- NAVIGATION MENU -------*/
 
 nav {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     position: relative;
     width: 100%;
     text-align: center;
 }
 
 nav ul {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 nav li {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     display: inline-block;
     margin: 0vw 2vw 0vw 2vw;
 }
 
 nav a {
     display: block;
-    color: #F7F0E7;
-    background-color: #2d2d2d;
+    color: #F1F1f1;
+    background-color: #3f3f3f;
     margin: 1vw 5vw 1vw 5vw;
     text-decoration: none;
     font-family: 'Open Sans';
@@ -172,7 +186,7 @@ nav a {
 }
 
 nav a:hover {
-    color: darkred;
+    color: #5d6f7d;
     opacity: 1;
 }
 
@@ -180,7 +194,7 @@ nav a:hover {
 /*--------- DROPDOWN MENU ----------*/
 
 .dropbtn {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     color: #F7F0E7;
     padding: 16px;
     width: 113px;
@@ -202,11 +216,11 @@ nav a:hover {
     right: 0;
     top: 0;
     margin: 0;
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
 }
 
 .dropdown ul {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -219,7 +233,7 @@ nav a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: darkred;
+    background-color: #5d6f7d;
     min-width: 89px;
     z-index: 1;
 }
@@ -366,6 +380,7 @@ nav a:hover {
 
 #about .column {
     text-align: center;
+    padding: 5vw 15vw 5vw 15vw;
 }
 
 .column2 {
@@ -422,6 +437,10 @@ h3 {
 > > > > > > > origin/master a {
     text-decoration: none;
     color: #000000;
+}
+
+p {
+    font-family: 'Raleway';
 }
 
 a:hover {
