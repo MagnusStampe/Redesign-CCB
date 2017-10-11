@@ -127,23 +127,15 @@ Benjamin Ole Reinhold Bonnichsen Benjamin
     }
 }
 
-Benjamin Ole Reinhold Bonnichsen Benjamin position: fixed;
 display: inline-block;
 width: 100%;
-left: 0;
-right: 0;
-top: 0;
-margin: 0;
 background-color: #2d2d2d;
 color: #F7F0E7;
 padding: 16px;
-width: 113px;
-border: none;
 cursor: pointer;
 font-family: 'Open Sans';
 font-size: 1.5em;
 text-align: left;
-Benjamin Ole Reinhold Bonnichsen Benjamin
 /*--------- NAVIGATION MENU -------*/
 
 nav {
