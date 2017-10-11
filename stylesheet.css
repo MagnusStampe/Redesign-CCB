@@ -432,6 +432,10 @@ h3 {
     color: #000000;
 }
 
+p {
+    font-family: 'Raleway';
+}
+
 a:hover {
     color: #888888;
 }
