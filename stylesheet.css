@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-
-Benjamin Ole Reinhold Bonnichsen Aktiv for 2m siden Information om samtale Benjamin Ole Reinhold Bonnichsen Aktiv for 2m siden Valgmuligheder Søg i samtale Rediger kælenavne Skift farve Skift humørikon Notifikationer Profil for Facebook https: //facebook.com/benjamin.bonnichsen
-Delte billeder 1 ulæst besked Beskeder 9. SEPTEMBER 02:58 Laura Skal jeg sende den her? 🙉🙉 Afspil -0:10 Flere visuelle indstillingerStart fuldskærmsvisning Tænd Benjamin Ole Reinhold Bonnichsen Benjamin Gør det!! Laura Sådan 😱 9. SEPTEMBER 04:55 Benjamin Ole Reinhold Bonnichsen Benjamin Skide godt! 😂 15. SEPTEMBER 21:31 Benjamin Ole Reinhold Bonnichsen Benjamin Jj Benjamin Ole Reinhold Bonnichsen Benjamin Du er gået glip af en videosamtale med Benjamin. 15. september 21:32 Ring tilbage 28. SEPTEMBER 13:57 Laura Købte du spand til os eller? 🤷🏼‍♀️ Benjamin Ole Reinhold Bonnichsen Benjamin Ja ✌🏽 FroZen Laura GIPHY 12:56 Benjamin Ole Reinhold Bonnichsen Benjamin ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,7 +30,7 @@ li a:hover {
     background-color: #111;
 }
 
-Benjamin Ole Reinhold Bonnichsen Benjamin <div class="dropdown" > <span > Mouse over me</span > <div class="dropdown-content" > <p > Hello World!</p > </div > </div > Benjamin Ole Reinhold Bonnichsen Benjamin .dropdown {
+<div class="dropdown" > <span > Mouse over me</span > <div class="dropdown-content" > <p > Hello World!</p > </div > </div > .dropdown {
     position: relative;
     display: inline-block;
 }
@@ -40,7 +38,7 @@ Benjamin Ole Reinhold Bonnichsen Benjamin <div class="dropdown" > <span > Mouse 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
@@ -51,7 +49,7 @@ Benjamin Ole Reinhold Bonnichsen Benjamin <div class="dropdown" > <span > Mouse 
     display: block;
 }
 
-Benjamin Ole Reinhold Bonnichsen Benjamin <div class="dropdown" > <button class="dropbtn" > Dropdown</button > <div class="dropdown-content" > <a href="#" > Link 1</a > <a href="#" > Link 2</a > <a href="#" > Link 3</a > </div > </div > Benjamin Ole Reinhold Bonnichsen Benjamin
+<div class="dropdown" > <button class="dropbtn" > Dropdown</button > <div class="dropdown-content" > <a href="#" > Link 1</a > <a href="#" > Link 2</a > <a href="#" > Link 3</a > </div > </div >
 /* Style The Dropdown Button */
 
 .dropbtn {
@@ -420,9 +418,7 @@ p {
     color: white;
 }
 
-<<<<<<< HEAD
-=======
-p {
+<<<<<<< HEAD=======p {
     font-family: 'Raleway';
 }
 
@@ -430,9 +426,8 @@ h1,
 h3 {
     font-family: 'Oswald';
 }
->>>>>>> origin/master
 
-a {
+> > > > > > > origin/master a {
     text-decoration: none;
     color: #000000;
 }
