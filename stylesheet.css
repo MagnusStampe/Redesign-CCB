@@ -287,16 +287,15 @@ nav a:hover {
 /*---------section--------*/
 
 #splash {
-    height: 130vh;
+    height: 115vh;
     width: 100%;
 }
 
 #splash div {
     width: 70vw;
-    top: 20vh;
+    top: -5vw;
     left: 15vw;
     position: absolute;
-    align-self: center;
 }
 
 
@@ -335,6 +334,11 @@ nav a:hover {
     width: 100%;
 }
 
+#about .sectionwrapper {
+    flex-direction: column;
+    width: 100%;
+}
+
 .sectionwrapper2 {
     display: flex;
     flex-wrap: wrap;
@@ -355,7 +359,7 @@ nav a:hover {
     flex-direction: row;
 }
 
-#vision .sectionwrapper {
+#vision .sectionwrapper .column {
     display: block;
     text-align: center;
 }
@@ -368,6 +372,10 @@ nav a:hover {
     flex-grow: 1;
     padding: 2vw;
     width: 100%;
+}
+
+#about .column {
+    text-align: center;
 }
 
 .column2 {
@@ -412,6 +420,17 @@ p {
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+p {
+    font-family: 'Raleway';
+}
+
+h1,
+h3 {
+    font-family: 'Oswald';
+}
+>>>>>>> origin/master
 
 a {
     text-decoration: none;
@@ -424,7 +443,6 @@ a:hover {
 
 
 header {
-    background: #ffffff;
     height: 3vw;
     width: 100%;
     position: fixed;
@@ -463,8 +481,6 @@ img {
 #contact {
     margin-bottom: 7vw;
 }
-
-/*---------VIDEO---------*/
 
 .video iframe {
     position: absolute;
