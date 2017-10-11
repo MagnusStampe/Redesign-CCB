@@ -73,7 +73,7 @@
     flex-direction: row;
 }
 
-#vision .sectionwrapper {
+#vision .sectionwrapper .column {
     display: block;
     text-align: center;
 }
