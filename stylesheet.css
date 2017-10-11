@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3f3f3f;
 }
 
 li {
@@ -27,7 +27,7 @@ li a {
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
-    background-color: #111;
+    background-color: #f3f3f3;
 }
 
 <div class="dropdown" > <span > Mouse over me</span > <div class="dropdown-content" > <p > Hello World!</p > </div > </div > .dropdown {
@@ -53,7 +53,7 @@ li a:hover {
 /* Style The Dropdown Button */
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #5d6f7d;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -73,7 +73,7 @@ li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -103,10 +103,9 @@ li a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #5d6f7d;
 }
 
-Benjamin Ole Reinhold Bonnichsen Benjamin
 /*-------- Media Queries ---------- */
 
 @media all and (max-width: 828px) {
@@ -134,7 +133,7 @@ left: 0;
 right: 0;
 top: 0;
 margin: 0;
-background-color: #2d2d2d;
+background-color: #f3f3f3;
 color: #F7F0E7;
 padding: 16px;
 width: 113px;
