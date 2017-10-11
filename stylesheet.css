@@ -27,7 +27,7 @@ li a {
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
-    background-color: #f3f3f3;
+    background-color: #3f3f3f;
 }
 
 <div class="dropdown" > <span > Mouse over me</span > <div class="dropdown-content" > <p > Hello World!</p > </div > </div > .dropdown {
@@ -126,12 +126,10 @@ li a:hover {
     }
 }
 
-<<<<<<< HEAD
-display: inline-block;
+<<<<<<< HEAD display: inline-block;
 width: 100%;
 background-color: #2d2d2d;
-=======
-position: fixed;
+=======position: fixed;
 display: inline-block;
 width: 100%;
 left: 0;
@@ -139,17 +137,13 @@ right: 0;
 top: 0;
 margin: 0;
 background-color: #3f3f3f;
->>>>>>> origin/master
-color: #F7F0E7;
+> > > > > > > origin/master color: #F7F0E7;
 padding: 16px;
 cursor: pointer;
 font-family: 'Open Sans';
 font-size: 1.5em;
 text-align: left;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
+<<<<<<< HEAD======= > > > > > > > origin/master
 /*--------- NAVIGATION MENU -------*/
 
 nav {
