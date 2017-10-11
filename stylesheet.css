@@ -290,9 +290,9 @@ nav a:hover {
 }
 
 #splash div {
-    width: 70vw;
-    top: -5vw;
-    left: 15vw;
+    width: 40vw;
+    top: 1.5vw;
+    left: 30vw;
     position: absolute;
 }
 
