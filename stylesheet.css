@@ -7,16 +7,15 @@
 /*---------section--------*/
 
 #splash {
-    height: 130vh;
+    height: 115vh;
     width: 100%;
 }
 
 #splash div {
     width: 70vw;
-    top: 20vh;
+    top: -5vw;
     left: 15vw;
     position: absolute;
-    align-self: center;
 }
 
 #about {
@@ -141,7 +140,6 @@ a:hover {
 }
 
 header {
-    background: #ffffff;
     height: 3vw;
     width: 100%;
     position: fixed;
@@ -180,8 +178,6 @@ img {
 #contact {
     margin-bottom: 7vw;
 }
-
-/*---------VIDEO---------*/
 
 .video iframe {
     position: absolute;
