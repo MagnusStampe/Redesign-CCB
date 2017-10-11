@@ -49,7 +49,7 @@ li a:hover {
     display: block;
 }
 
-<div class="dropdown" > <button class="dropbtn" > Dropdown</button > <div class="dropdown-content" > <a href="#" > Link 1</a > <a href="#" > Link 2</a > <a href="#" > Link 3</a > </div > </div >
+<div class="dropdown" > <button class="dropbtn" > Dropdown</button > <div class="dropdown-content" > <a href="#about" > About</a > <a href="#brands" > Brands</a > <a href="#us" > Us</a > <a href="#vision" > Vision</a > <a href="#offer" > Offer</a > <a href="#contact" > Contact</a > </div > </div >
 /* Style The Dropdown Button */
 
 .dropbtn {
@@ -126,14 +126,14 @@ li a:hover {
     }
 }
 
-Benjamin Ole Reinhold Bonnichsen Benjamin position: fixed;
+position: fixed;
 display: inline-block;
 width: 100%;
 left: 0;
 right: 0;
 top: 0;
 margin: 0;
-background-color: #f3f3f3;
+background-color: #3f3f3f;
 color: #F7F0E7;
 padding: 16px;
 width: 113px;
@@ -142,33 +142,33 @@ cursor: pointer;
 font-family: 'Open Sans';
 font-size: 1.5em;
 text-align: left;
-Benjamin Ole Reinhold Bonnichsen Benjamin
+
 /*--------- NAVIGATION MENU -------*/
 
 nav {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     position: relative;
     width: 100%;
     text-align: center;
 }
 
 nav ul {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 nav li {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     display: inline-block;
     margin: 0vw 2vw 0vw 2vw;
 }
 
 nav a {
     display: block;
-    color: #F7F0E7;
-    background-color: #2d2d2d;
+    color: #F1F1f1;
+    background-color: #3f3f3f;
     margin: 1vw 5vw 1vw 5vw;
     text-decoration: none;
     font-family: 'Open Sans';
@@ -179,7 +179,7 @@ nav a {
 }
 
 nav a:hover {
-    color: darkred;
+    color: #5d6f7d;
     opacity: 1;
 }
 
@@ -187,7 +187,7 @@ nav a:hover {
 /*--------- DROPDOWN MENU ----------*/
 
 .dropbtn {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     color: #F7F0E7;
     padding: 16px;
     width: 113px;
@@ -209,11 +209,11 @@ nav a:hover {
     right: 0;
     top: 0;
     margin: 0;
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
 }
 
 .dropdown ul {
-    background-color: #2d2d2d;
+    background-color: #3f3f3f;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -226,7 +226,7 @@ nav a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: darkred;
+    background-color: #5d6f7d;
     min-width: 89px;
     z-index: 1;
 }
