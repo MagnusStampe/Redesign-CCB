@@ -10,6 +10,7 @@ header ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #5d6f7d;
+
 }
 
 header li a {
@@ -17,6 +18,7 @@ header li a {
     text-align: center;
     margin: 0 5vw 0 0;
     color: #f1f1f1;
+    font-size: 0.8em;
 }
 
 nav {
@@ -84,7 +86,7 @@ header li a:hover {
     padding: 10px;
     width: 89px;
     display: block;
-
+    font-family: 'oswald';
 }
 
 /* Change color of dropdown links on hover */
@@ -181,7 +183,7 @@ nav a:hover {
     }
 }
 
-/*---------section--------*/
+/*--------- SECTION --------*/
 
 #splash {
     height: 115vh;
@@ -220,9 +222,9 @@ nav a:hover {
     background-color: #3f3f3f;
 }
 
-/*---------flex-----------*/
+/*---------FLEX-----------*/
 
-/*---------parent---------*/
+/*---------PARENT---------*/
 
 .sectionwrapper {
     display: flex;
@@ -234,6 +236,7 @@ nav a:hover {
 #about .sectionwrapper {
     flex-direction: column;
     width: 100%;
+    margin: 0 0 7vw 0;
 }
 
 .sectionwrapper2 {
@@ -262,7 +265,7 @@ nav a:hover {
 }
 
 
-/*---------child---------*/
+/*---------CHILD---------*/
 
 .column {
     flex-basis: 100px;
@@ -393,3 +396,15 @@ img {
     padding-bottom: 56.25%;
     /* 16:9 Aspect Ratio */
     padding-top: 25px;
+}
+
+/*---------FOOTER---------*/
+
+footer {
+    top: 0px;
+    padding: 8px;
+    width: 100%;
+    color: #f1f1f1;
+    background-color: #3f3f3f;
+    text-align: center;
+}
