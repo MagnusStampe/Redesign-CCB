@@ -215,6 +215,10 @@ nav a:hover {
 .wrapper {
     width: 100%;
     margin: 1.5vw;
+    flex-basis: 100px;
+    flex-grow: 1;
+    min-width: 180px;
+    max-width: 70vw;
 }
 
 /*** BRANDS ***/
@@ -222,11 +226,6 @@ nav a:hover {
 /* Generel class for all brands */
 
 .brand {
-    flex-basis: 200px;
-    flex-grow: 1;
-    min-width: 180px;
-    max-width: 70vw;
-    width: 100%;
     background-size: cover;
     transition: background 0.4s linear;
 }
