@@ -441,3 +441,15 @@ img {
     padding-bottom: 56.25%;
     /* 16:9 Aspect Ratio */
     padding-top: 25px;
+}
+
+
+footer {
+    border: solid #3f3f3f 2px;
+    top: 0px;
+    padding: 8px;
+    width: 100%;
+    color: #f1f1f1;
+    background-color: #3f3f3f;
+    text-align: center;
+}
