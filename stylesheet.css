@@ -438,7 +438,8 @@ p {
     color: white;
 }
 
-p {
+p,
+li {
     font-family: 'Raleway';
 }
 
