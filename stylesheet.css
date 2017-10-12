@@ -77,7 +77,6 @@ header li a:hover {
 }
 
 
-
 /* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
@@ -339,6 +338,8 @@ body {
     background-repeat: no-repeat;
 }
 
+/*---------FONTS--------*/
+
 h1,
 h2,
 h3,
@@ -433,4 +434,5 @@ footer {
     color: #f1f1f1;
     background-color: #3f3f3f;
     text-align: center;
+    font-family: 'Raleway';
 }
