@@ -52,7 +52,9 @@ header li a:hover {
     font-size: 16px;
     cursor: pointer;
     height: 45px;
+
     border: none;
+
 }
 
 .dropdown img {
