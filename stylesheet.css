@@ -228,6 +228,98 @@ nav a:hover {
     background-color: rgba(93, 111, 125, 0.8);
 }
 
+#brands img {
+    filter: opacity(0%);
+}
+
+/*** BRANDS ***/
+
+/* Generel class for all brands */
+
+.brand {
+    background-size: cover;
+}
+
+/* Baberians Copenhagen */
+
+.brand1 {
+    background-image: url(images/barberians.png);
+}
+
+.brand1:hover {
+    background-image: url(images/barberians_txt.png);
+}
+
+/* Recipe for men */
+
+.brand2 {
+    background-image: url(images/recipe_for_men.png);
+}
+
+.brand2:hover {
+    background-image: url(images/recipe_for_men_txt.png);
+}
+
+/* SASCO */
+
+.brand3 {
+    background-image: url(images/sasco.png);
+}
+
+.brand3:hover {
+    background-image: url(images/sasco_txt.png);
+}
+
+/* Raw Naturals */
+
+.brand4 {
+    background-image: url(images/raw_naturals.png);
+}
+
+.brand4:hover {
+    background-image: url(images/raw_naturals_txt.png);
+}
+
+/* BKD */
+
+.brand5 {
+    background-image: url(images/bkd.png);
+}
+
+.brand5:hover {
+    background-image: url(images/bkd_txt.png);
+}
+
+/* -417 */
+
+.brand6 {
+    background-image: url(images/-417.png);
+}
+
+.brand6:hover {
+    background-image: url(images/-417_txt.png);
+}
+
+/* SeeSee */
+
+.brand7 {
+    background-image: url(images/seesee.png);
+}
+
+.brand7:hover {
+    background-image: url(images/seesee_txt.png);
+}
+
+/* Man Cave */
+
+.brand8 {
+    background-image: url(images/man_cave.png);
+}
+
+.brand8:hover {
+    background-image: url(images/man_cave_txt.png);
+}
+
 #us {
     background-color: #9eb1b8;
 }
