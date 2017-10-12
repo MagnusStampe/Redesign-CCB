@@ -204,6 +204,12 @@ nav a:hover {
     }
 }
 
+@media screen and (max-width: 514px) {
+    .column_content2 p {
+        display: block;
+    }
+}
+
 /*--------- SECTION --------*/
 
 #splash {
@@ -378,6 +384,10 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+#brands .column_content2 p {
+    display: none;
 }
 
 #vision .sectionwrapper .column {
