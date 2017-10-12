@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*   MENU */
+/*-------- MENU ---------- */
 
 header ul {
     list-style-type: none;
@@ -28,6 +28,8 @@ nav {
 header li a:hover {
     background-color: #f3f3f3;
 }
+
+/*-------- DROPDOWN ---------- */
 
 .dropdown-content {
     display: none;
