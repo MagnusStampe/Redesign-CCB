@@ -116,28 +116,7 @@ header li a:hover {
 
 }
 
-/*-------- Media Queries ---------- */
 
-@media all and (max-width: 828px) {
-    nav ul {
-        display: none;
-    }
-    nav {
-        display: none;
-    }
-    nav select {
-        display: inline-block;
-    }
-    body {
-        margin-top: 80px;
-    }
-}
-
-@media all and (min-width: 828px) {
-    .dropdown {
-        display: none;
-    }
-}
 
 /*--------- NAVIGATION MENU -------*/
 
@@ -521,9 +500,6 @@ footer {
     nav select {
         display: inline-block;
     }
-    body {
-        margin-top: 80px;
-    }
 }
 
 @media all and (min-width: 828px) {
@@ -535,5 +511,8 @@ footer {
 @media screen and (max-width: 514px) {
     #brands .column_content2 p {
         display: block;
+    }
+    section {
+        margin: 0;
     }
 }
