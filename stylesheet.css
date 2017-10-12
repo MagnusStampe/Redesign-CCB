@@ -237,8 +237,15 @@ nav a:hover {
 /* Generel class for all brands */
 
 .brand {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 1vw;
+    min-width: 180px;
+    max-width: 70vw;
+    width: 100%;
     background-size: cover;
     transition: background 0.4s linear;
+    margin: 1.5vw;
 }
 
 /* Baberians Copenhagen */
@@ -392,15 +399,6 @@ nav a:hover {
 #about .column {
     text-align: center;
     padding: 5vw 15vw 5vw 15vw;
-}
-
-.column2 {
-    flex-basis: 200px;
-    flex-grow: 1;
-    padding: 1vw;
-    min-width: 180px;
-    max-width: 70vw;
-    width: 100%;
 }
 
 .column_wide {
