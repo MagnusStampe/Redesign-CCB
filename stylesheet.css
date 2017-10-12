@@ -121,21 +121,18 @@ nav {
 }
 
 nav ul {
-    background-color: #3f3f3f;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 nav li {
-    background-color: #3f3f3f;
     display: inline-block;
     margin: 0vw 2vw 0vw 2vw;
 }
 
 nav a {
     display: block;
-    background-color: #3f3f3f;
     margin: 1vw 5vw 1vw 5vw;
     font-size: 1.2em;
     letter-spacing: 0.3vw;
