@@ -47,8 +47,15 @@ header li a:hover {
 
 .dropbtn {
     padding: 16px;
+    background-color: #5d6f7d;
     font-size: 16px;
     cursor: pointer;
+    height: 45px;
+}
+
+.dropdown img {
+
+    width: 25px;
     color: #F1F1f1;
     padding: 16px;
     width: 113px;
@@ -64,6 +71,9 @@ header li a:hover {
 .dropdown {
     position: relative;
     display: inline-block;
+    height: 45px;
+
+
 }
 
 /* Dropdown Content (Hidden by Default) */
