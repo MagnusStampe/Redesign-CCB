@@ -232,7 +232,7 @@ nav a:hover {
     }
 }
 
-/*---------section--------*/
+/*--------- SECTION --------*/
 
 #splash {
     height: 115vh;
@@ -271,9 +271,9 @@ nav a:hover {
     background-color: #3f3f3f;
 }
 
-/*---------flex-----------*/
+/*---------FLEX-----------*/
 
-/*---------parent---------*/
+/*---------PARENT---------*/
 
 .sectionwrapper {
     display: flex;
@@ -313,7 +313,7 @@ nav a:hover {
 }
 
 
-/*---------child---------*/
+/*---------CHILD---------*/
 
 .column {
     flex-basis: 100px;
@@ -446,6 +446,7 @@ img {
     padding-top: 25px;
 }
 
+/*---------FOOTER---------*/
 
 footer {
     top: 0px;
