@@ -212,6 +212,11 @@ nav a:hover {
     filter: opacity(0%);
 }
 
+.wrapper {
+    width: 100%;
+    margin: 1.5vw;
+}
+
 /*** BRANDS ***/
 
 /* Generel class for all brands */
@@ -219,13 +224,11 @@ nav a:hover {
 .brand {
     flex-basis: 200px;
     flex-grow: 1;
-    padding: 1vw;
     min-width: 180px;
     max-width: 70vw;
     width: 100%;
     background-size: cover;
     transition: background 0.4s linear;
-    margin: 1.5vw;
 }
 
 /* Baberians Copenhagen */
