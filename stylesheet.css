@@ -204,7 +204,7 @@ nav a:hover {
 }
 
 @media screen and (max-width: 514px) {
-    .column_content2 p {
+    #brands .column_content2 p {
         display: block;
     }
 }
