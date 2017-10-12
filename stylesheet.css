@@ -26,7 +26,7 @@ nav {
 /* Change the link color to #111 (black) on hover */
 
 header li a:hover {
-    background-color: #f3f3f3;
+    background-color: #f1f1f1;
 }
 
 /*-------- DROPDOWN ---------- */
@@ -99,6 +99,9 @@ header li a:hover {
     nav ul {
         display: none;
     }
+    nav {
+        display: none;
+    }
     nav select {
         display: inline-block;
     }
@@ -148,8 +151,8 @@ nav a:hover {
 /*--------- DROPDOWN MENU ----------*/
 
 .dropbtn {
-    background-color: #3f3f3f;
-    color: #F7F0E7;
+    background-color: #5d6f7d;
+    color: #F1F1f1;
     padding: 16px;
     width: 113px;
     border: none;
@@ -166,11 +169,11 @@ nav a:hover {
     display: inline-block;
     width: 100%;
     top: 0;
-    background-color: #3f3f3f;
+    background-color: #5d6f7d;
 }
 
 .dropdown ul {
-    background-color: #3f3f3f;
+    background-color: #5d6f7d;
     list-style-type: none;
     text-align: left;
 }
