@@ -4,20 +4,23 @@
     box-sizing: border-box;
 }
 
+/*   MENU */
+
 header ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #3f3f3f;
-}
-
-header li {
-    float: center;
+    background-color: #5d6f7d;
 }
 
 header li a {
     display: block;
     text-align: center;
     margin: 0 5vw 0 0;
+    color: #f1f1f1;
+}
+
+nav {
+    padding: 10px 6px;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -111,7 +114,7 @@ header li a:hover {
 /*--------- NAVIGATION MENU -------*/
 
 nav {
-    background-color: #3f3f3f;
+    background-color: #5d6f7d;
     position: relative;
     width: 100%;
     text-align: center;
