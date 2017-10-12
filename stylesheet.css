@@ -152,7 +152,6 @@ nav a:hover {
 /*--------- DROPDOWN MENU ----------*/
 
 .dropbtn {
-    background-color: #5d6f7d;
     color: #F1F1f1;
     padding: 16px;
     width: 113px;
@@ -175,7 +174,6 @@ nav a:hover {
 }
 
 .dropdown ul {
-    background-color: #5d6f7d;
     list-style-type: none;
     text-align: left;
 }
@@ -201,12 +199,9 @@ nav a:hover {
 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
-    color: #5d6f7d;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
 
 
 /*-------- Media Queries ---------- */
