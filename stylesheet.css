@@ -183,31 +183,7 @@ nav a:hover {
     text-align: left;
 }
 
-/*-------- Media Queries ---------- */
 
-@media all and (max-width: 828px) {
-    nav ul {
-        display: none;
-    }
-    nav select {
-        display: inline-block;
-    }
-    body {
-        margin-top: 80px;
-    }
-}
-
-@media all and (min-width: 828px) {
-    .dropdown {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 514px) {
-    #brands .column_content2 p {
-        display: block;
-    }
-}
 
 /*--------- SECTION --------*/
 
@@ -532,4 +508,30 @@ footer {
     background-color: #3f3f3f;
     text-align: center;
     font-family: 'Raleway';
+}
+
+/*-------- Media Queries ---------- */
+
+@media all and (max-width: 828px) {
+    nav ul {
+        display: none;
+    }
+    nav select {
+        display: inline-block;
+    }
+    body {
+        margin-top: 80px;
+    }
+}
+
+@media all and (min-width: 828px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    #brands .column_content2 p {
+        display: block;
+    }
 }
