@@ -556,6 +556,10 @@ footer {
     #vision {
         padding-bottom: 10vw;
     }
+
+    #contact img {
+        background-image: url(images/trees_small.jpg);
+    }
 }
 
 @media screen and (max-width: 1050px) and (min-width: 514px) {
