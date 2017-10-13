@@ -351,6 +351,9 @@ nav a:hover {
     text-align: center;
 }
 
+#vision {
+    padding-bottom: 5vw;
+}
 
 /*---------CHILD---------*/
 
@@ -545,6 +548,9 @@ footer {
         top: 38vw;
         left: 20vw;
         position: absolute;
+    }
+    #vision {
+        padding-bottom: 10vw;
     }
 }
 
