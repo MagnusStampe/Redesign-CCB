@@ -572,6 +572,9 @@ footer {
     body {
         background-image: url(images/background_small.jpg);
     }
+    #us img {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 670px) and (min-width: 514px) {
