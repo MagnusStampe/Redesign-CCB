@@ -318,6 +318,10 @@ nav a:hover {
     font-size: 3em;
 }
 
+#offer li {
+    padding: 1vw 0vw;
+}
+
 #contact {
     background-color: #3f3f3f;
 }
