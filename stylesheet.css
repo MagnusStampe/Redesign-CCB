@@ -466,6 +466,8 @@ img {
     margin-bottom: 7vw;
 }
 
+/*---------VIDEO---------*/
+
 .video iframe {
     position: absolute;
     width: 100%!important;
