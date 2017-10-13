@@ -584,6 +584,7 @@ footer {
     body {
         background-image: url(images/background_medium.jpg);
     }
+
 }
 
 
@@ -610,4 +611,14 @@ footer {
     body {
         background-image: url(images/background_large.jpg);
     }
+
 }
+
+
+@media screen and (min-width: 1050px) {
+    body {
+        background-image: url(images/background_large.jpg);
+    }
+}
+
+/*--------bagrunds_størrelse--------*/
