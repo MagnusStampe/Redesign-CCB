@@ -569,6 +569,9 @@ footer {
     #contact img {
         background-image: url(images/trees_small.jpg);
     }
+    body {
+        background-image: url(images/background_small.jpg);
+    }
 }
 
 @media screen and (max-width: 670px) and (min-width: 514px) {
@@ -578,7 +581,11 @@ footer {
         left: 25vw;
         position: absolute;
     }
+    body {
+        background-image: url(images/background_medium.jpg);
+    }
 }
+
 
 @media screen and (max-width: 870px) and (min-width: 670px) {
     #splash div {
@@ -595,5 +602,12 @@ footer {
         top: 0vw;
         left: 25vw;
         position: absolute;
+    }
+}
+
+
+@media screen and (min-width: 1050px) {
+    body {
+        background-image: url(images/background_large.jpg);
     }
 }
