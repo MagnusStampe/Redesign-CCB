@@ -181,10 +181,11 @@ nav a:hover {
 
 #about {
     background-color: #3f3f3f;
+    padding-bottom: 5vw
 }
 
 #brands {
-    background-color: rgba(93, 111, 125, 0.8);
+    background-color: rgba(93, 111, 125, 0.9);
 }
 
 #brands img {
@@ -298,11 +299,19 @@ nav a:hover {
 }
 
 #vision {
-    background-color: #fdd3cd;
+    background-color: #f1f1f1;
+}
+
+#vision h1 {
+    color: #5d6f7d;
+}
+
+#vision p {
+    color: #5d6f7d;
 }
 
 #offer {
-    background-color: rgba(93, 111, 125, 0.8);
+    background-color: rgba(93, 111, 125, 0.9);
 }
 
 #offer h1 {
