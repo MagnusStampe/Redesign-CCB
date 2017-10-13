@@ -560,6 +560,9 @@ footer {
     #contact img {
         background-image: url(images/trees_small.jpg);
     }
+    body {
+        background-image: url(images/background_small.jpg);
+    }
 }
 
 @media screen and (max-width: 1050px) and (min-width: 514px) {
@@ -569,4 +572,16 @@ footer {
         left: 25vw;
         position: absolute;
     }
+    body {
+        background-image: url(images/background_medium.jpg);
+    }
 }
+
+
+@media screen and (min-width: 1050px) {
+    body {
+        background-image: url(images/background_large.jpg);
+    }
+}
+
+/*--------bagrunds_størrelse--------*/
