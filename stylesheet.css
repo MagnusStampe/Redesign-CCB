@@ -298,7 +298,15 @@ nav a:hover {
 }
 
 #vision {
-    background-color: #fdd3cd;
+    background-color: #f1f1f1;
+}
+
+#vision h1 {
+    color: #5d6f7d;
+}
+
+#vision p {
+    color: #5d6f7d;
 }
 
 #offer {
