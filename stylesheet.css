@@ -318,7 +318,8 @@ nav a:hover {
     font-size: 3em;
 }
 
-#offer li {
+#offer li,
+#contact li {
     padding: 1vw 0vw;
 }
 
